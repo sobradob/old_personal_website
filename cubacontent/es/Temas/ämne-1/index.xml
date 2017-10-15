@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ämne 1 on CubaPura</title>
+    <link>https://boazsobrado.com/cubacontent/es/temas/%C3%A4mne-1/index.xml</link>
+    <description>Recent content in Ämne 1 on CubaPura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>boaz@boazsobrado.com (Boaz Sobrado)</managingEditor>
+    <webMaster>boaz@boazsobrado.com (Boaz Sobrado)</webMaster>
+    <copyright>(c) 2017 Todos los derechos reservados</copyright>
+    <atom:link href="https://boazsobrado.com/cubacontent/es/temas/%C3%A4mne-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ejemplo 1</title>
+      <link>https://boazsobrado.com/cubacontent/es/2016/12/05/introduction/</link>
+      <pubDate>Mon, 05 Dec 2016 12:29:19 +0100</pubDate>
+      <author>boaz@boazsobrado.com (Boaz Sobrado)</author>
+      <guid>https://boazsobrado.com/cubacontent/es/2016/12/05/introduction/</guid>
+      <description>
+
+&lt;h1 id=&#34;en-rubrik&#34;&gt;En rubrik&lt;/h1&gt;
+
+&lt;p&gt;Text om ämnet ett.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
