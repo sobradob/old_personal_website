@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://boazsobrado.com/blog/2017/10/25/raising-money-for-friends-hurt-by-hurricane-irma/</loc>
@@ -139,6 +140,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/</loc>
+    <lastmod>2017-10-25T18:51:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -312,6 +314,7 @@
   
   <url>
     <loc>http://boazsobrado.com/tags/</loc>
+    <lastmod>2017-05-22T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
   
