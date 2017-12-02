@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://boazsobrado.com/blog/2017/12/01/time-series-analysis-for-facebook-message-volume/</loc>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/blog/2017/10/25/raising-money-for-friends-hurt-by-hurricane-irma/</loc>
     <lastmod>2017-10-25T18:51:23+08:00</lastmod>
   </url>
@@ -122,7 +127,7 @@
   
   <url>
     <loc>http://boazsobrado.com/</loc>
-    <lastmod>2017-10-25T18:51:23+08:00</lastmod>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -188,7 +193,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/facebook/</loc>
-    <lastmod>2016-10-29T15:52:58+02:00</lastmod>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -272,19 +277,19 @@
   
   <url>
     <loc>http://boazsobrado.com/post/</loc>
-    <lastmod>2017-10-25T18:51:23+08:00</lastmod>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/categories/r/</loc>
-    <lastmod>2017-08-29T17:58:21+08:00</lastmod>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/tags/r/</loc>
-    <lastmod>2017-08-18T22:22:16-08:00</lastmod>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   

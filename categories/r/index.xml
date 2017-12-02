@@ -6,10 +6,20 @@
     <description>Recent content in R on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Aug 2017 17:58:21 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2017 15:52:58 +0200</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Time Series analysis for Facebook message volume</title>
+      <link>http://boazsobrado.com/blog/2017/12/01/time-series-analysis-for-facebook-message-volume/</link>
+      <pubDate>Fri, 01 Dec 2017 15:52:58 +0200</pubDate>
+      
+      <guid>http://boazsobrado.com/blog/2017/12/01/time-series-analysis-for-facebook-message-volume/</guid>
+      <description>Introduction to the data set The data is the amount of Facebook messages a user (me) sent and received between 2011 and 2016. The data was exported from Facebook, converted from HTML to JSON and subsequently read into R. For more details on how this was done, please consult here.
+The original data source contains 413,101 timestamps and messages between 2008 and 2016. The volume of messages is very low between 2008-2011, and highly atypical to the rest of the series, so it was not considered in the sample.</description>
+    </item>
     
     <item>
       <title>Implementing a Kalman filter in R for Android GPS measurements</title>
