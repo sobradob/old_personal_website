@@ -135,13 +135,13 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/bayes/</loc>
+    <loc>http://boazsobrado.com/categories/bayes/</loc>
     <lastmod>2017-05-22T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/categories/bayes/</loc>
+    <loc>http://boazsobrado.com/tags/bayes/</loc>
     <lastmod>2017-05-22T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -153,13 +153,13 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/books/</loc>
+    <loc>http://boazsobrado.com/categories/books/</loc>
     <lastmod>2016-04-18T09:48:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/categories/books/</loc>
+    <loc>http://boazsobrado.com/tags/books/</loc>
     <lastmod>2016-04-18T09:48:37-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -171,20 +171,14 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/coding/</loc>
-    <lastmod>2016-04-20T14:12:49-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://boazsobrado.com/categories/coding/</loc>
     <lastmod>2016-04-20T14:12:49-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/costa-rica/</loc>
-    <lastmod>2017-08-18T22:22:16-08:00</lastmod>
+    <loc>http://boazsobrado.com/tags/coding/</loc>
+    <lastmod>2016-04-20T14:12:49-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -195,8 +189,8 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/cuba/</loc>
-    <lastmod>2016-06-12T11:32:32-06:00</lastmod>
+    <loc>http://boazsobrado.com/tags/costa-rica/</loc>
+    <lastmod>2017-08-18T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -207,20 +201,26 @@
   </url>
   
   <url>
+    <loc>http://boazsobrado.com/tags/cuba/</loc>
+    <lastmod>2016-06-12T11:32:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/categories/excel/</loc>
     <lastmod>2016-11-13T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/facebook/</loc>
-    <lastmod>2016-10-29T15:52:58+02:00</lastmod>
+    <loc>http://boazsobrado.com/categories/facebook/</loc>
+    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/categories/facebook/</loc>
-    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
+    <loc>http://boazsobrado.com/tags/facebook/</loc>
+    <lastmod>2016-10-29T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -237,20 +237,14 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/hugo/</loc>
-    <lastmod>2016-04-20T14:12:49-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://boazsobrado.com/categories/hugo/</loc>
     <lastmod>2016-04-20T14:12:49-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/latin-america/</loc>
-    <lastmod>2016-06-12T11:32:32-06:00</lastmod>
+    <loc>http://boazsobrado.com/tags/hugo/</loc>
+    <lastmod>2016-04-20T14:12:49-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -261,13 +255,19 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/literature/</loc>
-    <lastmod>2016-04-18T09:48:37-06:00</lastmod>
+    <loc>http://boazsobrado.com/tags/latin-america/</loc>
+    <lastmod>2016-06-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/categories/literature/</loc>
+    <lastmod>2016-04-18T09:48:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/tags/literature/</loc>
     <lastmod>2016-04-18T09:48:37-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -279,13 +279,13 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/mistakes/</loc>
+    <loc>http://boazsobrado.com/categories/mistakes/</loc>
     <lastmod>2017-01-11T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/categories/mistakes/</loc>
+    <loc>http://boazsobrado.com/tags/mistakes/</loc>
     <lastmod>2017-01-11T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -297,13 +297,13 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/politics/</loc>
+    <loc>http://boazsobrado.com/categories/politics/</loc>
     <lastmod>2016-02-29T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/categories/politics/</loc>
+    <loc>http://boazsobrado.com/tags/politics/</loc>
     <lastmod>2016-02-29T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -315,20 +315,14 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/r/</loc>
-    <lastmod>2018-02-08T15:52:58+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://boazsobrado.com/categories/r/</loc>
     <lastmod>2018-02-08T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/rotterdam/</loc>
-    <lastmod>2017-01-11T11:32:32-06:00</lastmod>
+    <loc>http://boazsobrado.com/tags/r/</loc>
+    <lastmod>2018-02-08T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -339,13 +333,19 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/shiny/</loc>
-    <lastmod>2017-08-18T22:22:16-08:00</lastmod>
+    <loc>http://boazsobrado.com/tags/rotterdam/</loc>
+    <lastmod>2017-01-11T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/categories/shiny/</loc>
+    <lastmod>2017-08-18T22:22:16-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/tags/shiny/</loc>
     <lastmod>2017-08-18T22:22:16-08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -357,13 +357,13 @@
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/tags/travel/</loc>
+    <loc>http://boazsobrado.com/categories/travel/</loc>
     <lastmod>2017-01-11T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://boazsobrado.com/categories/travel/</loc>
+    <loc>http://boazsobrado.com/tags/travel/</loc>
     <lastmod>2017-01-11T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
