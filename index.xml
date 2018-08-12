@@ -6,19 +6,21 @@
     <description>Recent content on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jul 2018 17:58:21 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 15:52:58 +0200</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>On proof of work and competitive industries: Ponzis, bubbles, buying high and selling low</title>
-      <link>http://boazsobrado.com/blog/2018/07/22/on-proof-of-work-and-competitive-industries-ponzis-bubbles-buying-high-and-selling-low/</link>
-      <pubDate>Sun, 22 Jul 2018 17:58:21 +0800</pubDate>
+      <title>How to generate a Bitcoin vanity address using a Mac</title>
+      <link>http://boazsobrado.com/blog/2018/08/11/how-to-generate-a-bitcoin-vanity-address-using-a-mac/</link>
+      <pubDate>Sat, 11 Aug 2018 15:52:58 +0200</pubDate>
       
-      <guid>http://boazsobrado.com/blog/2018/07/22/on-proof-of-work-and-competitive-industries-ponzis-bubbles-buying-high-and-selling-low/</guid>
-      <description>On why many intellectual jobs are pretend jobs, why pretend work is actually a valid way of assessing real work, ponzi schemes and imposed structure.
-Graduate recruiters &amp;amp; Team JUST When I arrived at Cambridge in 2011 I was immediately approached by hoardes of corporates trying to sell me (a clueless teenager) a vision of what I should do after university. Law firms, investment banks and consultancies spend a large amount of money getting you (the clueless student) to go to career events.</description>
+      <guid>http://boazsobrado.com/blog/2018/08/11/how-to-generate-a-bitcoin-vanity-address-using-a-mac/</guid>
+      <description>A bitcoin vanity address is an address that starts in a particular way. Here is an example:
+My BTC address is 1Cobra3fJstD9g3DJ2oaUpDps5gJsZa4eS and my PGP key fingerprint is 61559B1EEFB3F8DA6C40BAAC6F85594478CE4C7A.
+&amp;mdash; Cøbra (@CobraBitcoin) January 3, 2018 
+Once I saw these addresses exist, I obviously wanted one. There are many websites that help you generate a vanity address, however it involves a trusted third party. Nick Szabo doesn&amp;rsquo;t like [trusted third parties]().</description>
     </item>
     
     <item>
