@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://boazsobrado.com/blog/2018/09/02/a-tale-of-two-johns/</loc>
+    <lastmod>2018-09-02T12:52:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/blog/2018/08/11/how-to-generate-a-bitcoin-vanity-address-using-a-mac/</loc>
     <lastmod>2018-08-11T15:52:58+02:00</lastmod>
   </url>
@@ -153,7 +158,7 @@
   
   <url>
     <loc>http://boazsobrado.com/</loc>
-    <lastmod>2018-08-11T15:52:58+02:00</lastmod>
+    <lastmod>2018-09-02T12:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -315,7 +320,7 @@
   
   <url>
     <loc>http://boazsobrado.com/post/</loc>
-    <lastmod>2018-08-11T15:52:58+02:00</lastmod>
+    <lastmod>2018-09-02T12:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
