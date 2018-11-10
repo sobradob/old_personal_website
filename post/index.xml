@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 12:52:58 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Nov 2018 12:52:58 +0200</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A smart email &amp; SMS bot on AWS using R</title>
+      <link>http://boazsobrado.com/blog/2018/11/08/a-smart-email--sms-bot-on-aws-using-r/</link>
+      <pubDate>Thu, 08 Nov 2018 12:52:58 +0200</pubDate>
+      
+      <guid>http://boazsobrado.com/blog/2018/11/08/a-smart-email--sms-bot-on-aws-using-r/</guid>
+      <description>I face the following problem: I get a lot of similarly formatted emails that require some sort of action that can in theory be easily automated. For example, I get Woocommerce order notifications that I want to forward selectively to my team via SMS.
+It turns out there is no Gmail extension that will help you do that (or at least I didn&amp;rsquo;t find anything like it). A better programmer would alter the php code of the Woocommerce site to interact with the API of a service like SMSGLOBAL.</description>
+    </item>
     
     <item>
       <title>A tale of two Johns</title>
