@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Oct 2017 18:51:23 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jan 2019 12:52:58 +0200</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018</title>
+      <link>http://boazsobrado.com/categories/2018/</link>
+      <pubDate>Sun, 13 Jan 2019 12:52:58 +0200</pubDate>
+      
+      <guid>http://boazsobrado.com/categories/2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Airbnb</title>
@@ -59,7 +68,7 @@
     <item>
       <title>Coding</title>
       <link>http://boazsobrado.com/categories/coding/</link>
-      <pubDate>Thu, 08 Nov 2018 12:52:58 +0200</pubDate>
+      <pubDate>Sun, 13 Jan 2019 12:52:58 +0200</pubDate>
       
       <guid>http://boazsobrado.com/categories/coding/</guid>
       <description></description>
@@ -147,6 +156,15 @@
     </item>
     
     <item>
+      <title>Map</title>
+      <link>http://boazsobrado.com/categories/map/</link>
+      <pubDate>Sun, 13 Jan 2019 12:52:58 +0200</pubDate>
+      
+      <guid>http://boazsobrado.com/categories/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Maps</title>
       <link>http://boazsobrado.com/categories/maps/</link>
       <pubDate>Tue, 29 Aug 2017 17:58:21 +0800</pubDate>
@@ -185,7 +203,7 @@
     <item>
       <title>R</title>
       <link>http://boazsobrado.com/categories/r/</link>
-      <pubDate>Thu, 08 Nov 2018 12:52:58 +0200</pubDate>
+      <pubDate>Sun, 13 Jan 2019 12:52:58 +0200</pubDate>
       
       <guid>http://boazsobrado.com/categories/r/</guid>
       <description></description>
