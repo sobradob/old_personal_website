@@ -111,14 +111,14 @@
 
 <p>Mypersonality has data downloadable in a text format. After much struggle, we realised that running R on a laptop was not going to suffice to handle 22 million rows of text. Instead, we used MySQL to read the text file, create indexes and do the relevant joins. Afterwards, we used RODBC to connect to the database and import the data into R.</p>
 
-<pre><code class="language-r, eval=FALSE">library(RODBC)
+<pre><code class="language-r,">library(RODBC)
 con1&lt;-odbcConnect(&quot;data&quot;, uid=&quot;root&quot;, pwd=&quot;root&quot;)
 data&lt;- sqlQuery(con1, &quot;SELECT id, text FROM status_iq;&quot;,stringsAsFactors=F)
 </code></pre>
 
 <p>This looks easy enough, but given that I was completely unfamiliar with ODBC and MySQL it took a lot longer than it should have. Nevertheless, at this point we ended up with 420k+ status updates in the following format:</p>
 
-<pre><code class="language-r, echo=FALSE">library(readr)
+<pre><code class="language-r,">library(readr)
 data&lt;-read_csv(&quot;iqfbstatus.csv&quot;,col_names = TRUE, n_max=1)
 print(data)
 </code></pre>
@@ -127,7 +127,7 @@ print(data)
 
 <p>We wanted to have a matrix with the different types of errors per status, in case we wanted to see whether some errors are more associated with a certain factor (low intelligence, personality, etc&hellip;) than others. First we load the misspelled words, make them a character vector and use this vector to loop through the data frame, counting the occurrence of each string in each Facebook status.</p>
 
-<pre><code class="language-r, eval=FALSE">library(stringr)
+<pre><code class="language-r,">library(stringr)
 errors&lt;- read_csv2(&quot;sointer/fbiq/wrongwords2.csv&quot;,col_names=c(&quot;wrong&quot;,&quot;right&quot;))
 errors$wrong-&gt;wrongwords
 
@@ -141,7 +141,7 @@ for (y in 1:length(wrongwords)){
 
 <p>Due to the sheer size of the resulting data I ended up splitting this task into smaller, more manageable chunks so R wouldn&rsquo;t crash. After getting rid of the status updates, I wanted to check which are the most commonly misspelled words and what the distribution of errors is.</p>
 
-<pre><code class="language-r, eval=FALSE">errorsByWord&lt;- as.data.frame(colSums(data[,-1]))
+<pre><code class="language-r,">errorsByWord&lt;- as.data.frame(colSums(data[,-1]))
 colnames(errorsByWord)[1] &lt;- &quot;total_err&quot;
 errorsByWord$word &lt;- rownames(errorsByWord)
 errorsByWord &lt;- arrange(errorsByWord, total_err)
@@ -172,7 +172,7 @@ tail(errorsByWord, 15)
 
 <h4 id="step-4-analysis">Step 4: Analysis</h4>
 
-<pre><code class="language-r, eval=FALSE">data$total_error&lt;-rowSums(data[,2:ncol(data)])
+<pre><code class="language-r,">data$total_error&lt;-rowSums(data[,2:ncol(data)])
 by_user &lt;- group_by(data, id)
 users &lt;- summarise(by_user,
                    count = n(),
@@ -191,7 +191,7 @@ plot &lt;- ggplot(users, aes(x=iq)) +
 
 <p>Out of curiosity we checked which spelling mistakes are related to high IQ and which mistakes are related to low IQ. We would not attach too much statistical significance to these results, but they make for a pretty wordcloud.</p>
 
-<pre><code class="language-r, eval=FALSE">library(dplyr)
+<pre><code class="language-r,">library(dplyr)
 library(wordcloud)
 library(RColorBrewer)
 matrix &lt;- data %&gt;% group_by(id) %&gt;% summarise_each(funs(sum))
