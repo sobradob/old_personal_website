@@ -6,10 +6,20 @@
     <description>Recent content in Aws on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Nov 2018 12:52:58 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 11:32:32 -0600</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automating my business</title>
+      <link>http://boazsobrado.com/blog/2019/08/12/automating-my-business/</link>
+      <pubDate>Mon, 12 Aug 2019 11:32:32 -0600</pubDate>
+      
+      <guid>http://boazsobrado.com/blog/2019/08/12/automating-my-business/</guid>
+      <description>As a small business owner keeping track of things can be surprisingly difficult: how you spend your money, who owes you money, who you owe money, what are your expenses, margins, operating costs&amp;hellip;
+If you have multiple revenue streams from multiple platforms, you can quickly reach a point where you ignore basic things, like for example how much you are making exactly. Specially when you are focused on numerous other things as you try to scale your business.</description>
+    </item>
     
     <item>
       <title>A smart email &amp; SMS bot on AWS using R</title>

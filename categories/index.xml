@@ -23,7 +23,7 @@
     <item>
       <title>Airbnb</title>
       <link>http://boazsobrado.com/categories/airbnb/</link>
-      <pubDate>Wed, 25 Oct 2017 18:51:23 +0800</pubDate>
+      <pubDate>Tue, 19 Feb 2019 09:58:21 +0800</pubDate>
       
       <guid>http://boazsobrado.com/categories/airbnb/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>Aws</title>
       <link>http://boazsobrado.com/categories/aws/</link>
-      <pubDate>Thu, 08 Nov 2018 12:52:58 +0200</pubDate>
+      <pubDate>Mon, 12 Aug 2019 11:32:32 -0600</pubDate>
       
       <guid>http://boazsobrado.com/categories/aws/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>Coding</title>
       <link>http://boazsobrado.com/categories/coding/</link>
-      <pubDate>Sun, 13 Jan 2019 12:52:58 +0200</pubDate>
+      <pubDate>Mon, 12 Aug 2019 11:32:32 -0600</pubDate>
       
       <guid>http://boazsobrado.com/categories/coding/</guid>
       <description></description>
@@ -86,9 +86,18 @@
     <item>
       <title>Cuba</title>
       <link>http://boazsobrado.com/categories/cuba/</link>
-      <pubDate>Wed, 25 Oct 2017 18:51:23 +0800</pubDate>
+      <pubDate>Tue, 19 Feb 2019 09:58:21 +0800</pubDate>
       
       <guid>http://boazsobrado.com/categories/cuba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataviz</title>
+      <link>http://boazsobrado.com/categories/dataviz/</link>
+      <pubDate>Tue, 19 Feb 2019 09:58:21 +0800</pubDate>
+      
+      <guid>http://boazsobrado.com/categories/dataviz/</guid>
       <description></description>
     </item>
     
@@ -203,9 +212,18 @@
     <item>
       <title>R</title>
       <link>http://boazsobrado.com/categories/r/</link>
-      <pubDate>Sun, 13 Jan 2019 12:52:58 +0200</pubDate>
+      <pubDate>Mon, 12 Aug 2019 11:32:32 -0600</pubDate>
       
       <guid>http://boazsobrado.com/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Report</title>
+      <link>http://boazsobrado.com/categories/report/</link>
+      <pubDate>Mon, 12 Aug 2019 11:32:32 -0600</pubDate>
+      
+      <guid>http://boazsobrado.com/categories/report/</guid>
       <description></description>
     </item>
     
@@ -221,7 +239,7 @@
     <item>
       <title>Shiny</title>
       <link>http://boazsobrado.com/categories/shiny/</link>
-      <pubDate>Fri, 18 Aug 2017 22:22:16 -0800</pubDate>
+      <pubDate>Thu, 08 Feb 2018 15:52:58 +0200</pubDate>
       
       <guid>http://boazsobrado.com/categories/shiny/</guid>
       <description></description>

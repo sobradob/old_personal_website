@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://boazsobrado.com/blog/2019/08/12/automating-my-business/</loc>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/blog/2019/02/19/trumped-cubas-short-term-property-rental-market-2017-2018/</loc>
     <lastmod>2019-02-19T09:58:21+08:00</lastmod>
   </url>
@@ -155,7 +160,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/airbnb/</loc>
-    <lastmod>2017-10-25T18:51:23+08:00</lastmod>
+    <lastmod>2019-02-19T09:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -167,7 +172,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/aws/</loc>
-    <lastmod>2018-11-08T12:52:58+02:00</lastmod>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -185,7 +190,7 @@
   
   <url>
     <loc>http://boazsobrado.com/</loc>
-    <lastmod>2019-02-19T09:58:21+08:00</lastmod>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -209,7 +214,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/coding/</loc>
-    <lastmod>2019-01-13T12:52:58+02:00</lastmod>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -233,13 +238,19 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/cuba/</loc>
-    <lastmod>2017-10-25T18:51:23+08:00</lastmod>
+    <lastmod>2019-02-19T09:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/tags/cuba/</loc>
     <lastmod>2016-06-12T11:32:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/categories/dataviz/</loc>
+    <lastmod>2019-02-19T09:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -353,19 +364,25 @@
   
   <url>
     <loc>http://boazsobrado.com/post/</loc>
-    <lastmod>2019-02-19T09:58:21+08:00</lastmod>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/categories/r/</loc>
-    <lastmod>2019-01-13T12:52:58+02:00</lastmod>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/tags/r/</loc>
     <lastmod>2018-02-08T15:52:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/categories/report/</loc>
+    <lastmod>2019-08-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -383,7 +400,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/shiny/</loc>
-    <lastmod>2017-08-18T22:22:16-08:00</lastmod>
+    <lastmod>2018-02-08T15:52:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
