@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Restarting your sales after a coronavirus lockdown &middot; Boaz Sobrado</title>
+
+  
+  <link rel="stylesheet" href="http://boazsobrado.com/css/poole.css">
+  <link rel="stylesheet" href="http://boazsobrado.com/css/hyde.css">
+  <link rel="stylesheet" href="http://boazsobrado.com/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://boazsobrado.com/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://boazsobrado.com/css/hyde-x.css">
+  <link rel="stylesheet" href="http://boazsobrado.com/css/highlight/.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://boazsobrado.com/touch-icon-144-precomposed.png">
+  <link href="http://boazsobrado.com/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="Using a MCMC BTYD model to estimate which of your clients would have purchased had the lockdown not happened. ">
+  <meta name="keywords" content="There,are,no,defaults">
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-68708652-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+<body class="theme-base-0d">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1>Boaz Sobrado</h1>
+      <p class="lead">Personal and professional website.</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://boazsobrado.com/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://boazsobrado.com/aboutme/">About me</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="http://github.com/sobradob"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      <a href="boazsobrado"><i class="fa fa-linkedin-square fa-3x"></i></a>
+      
+      
+      <a href="http://twitter.com/sobradob"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="http://boazsobrado.com/index.xml" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2020 <a href="http://boazsobrado.com/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1 class="post-title">Restarting your sales after a coronavirus lockdown</h1>
+    <span class="post-date">Apr 12, 2020 &middot; 6 minute read
+    
+    <br/>
+    <a class="label" href="http://boazsobrado.com/categories/r">R</a><a class="label" href="http://boazsobrado.com/categories/coding">coding</a>
+    </span>
+    
+
+<p>As I write this, a novel strain of coronavirus (colloquially known as <em>the rona</em>) has a global lockdown. Unemployment rates are skyrocketing, the stock market has dropped substantially, but not nearly as much as consumer sentiment. Millions of businesses around the world, from small businesses like nail salons to tech giants like Airbnb are now facing the same problem: no revenues. At this point, we can only guess how long lockdowns will last. But there are encouraging signs that governments have decided to open. <a href="https://www.euractiv.com/section/coronavirus/news/austrias-government-presents-covid-19-exit-schedule/">Austria plans to be open in May</a>. For cash strapped businesses, it is essential to get back into action as soon as possible.</p>
+
+<p><strong>In this post, I will show how you can predict who would have purchased from your business, had the lockdowns not happened.</strong></p>
+
+<p>Once the lockdown is over, they are the customers you want to reach out to first. Of course, caveats apply: this does not apply to all business types and the world may not be the same after the virus as it was prior to the virus.</p>
+
+<h2 id="buy-till-you-die">Buy till you die</h2>
+
+<p>According to <a href="https://en.wikipedia.org/wiki/Buy_Till_you_Die">Wikipedia</a>:</p>
+
+<blockquote>
+<p>The Buy Till You Die (BTYD) class of statistical models are designed to capture the behavioral characteristics of non-contractual customers, or when the company is not able to directly observe when a customer stops being a customer of a brand. The goal is typically to model and forecast customer lifetime value.</p>
+
+<p>BTYD models all jointly model two processes: a repeat purchase process, that explains how frequently customers make purchases while they are still &ldquo;alive&rdquo;; and a dropout process, which models how likely a customer is to churn in any given time period.</p>
+</blockquote>
+
+<p>In other words, the aim of the model is:</p>
+
+<ul>
+<li>estimate how frequently the customer will purchase</li>
+<li>estimate when the customer will stop purchasing (die)</li>
+</ul>
+
+<p>An advantage of BTYD models is that they only require information on the purchase history of customers. For example:</p>
+
+<table>
+<thead>
+<tr>
+<th>Customer ID</th>
+<th>Date</th>
+<th>Purchase Type</th>
+<th>USD Value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>2020-01-01</td>
+<td>New Widget</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>2020-01-01</td>
+<td>New Widget</td>
+<td>20</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>2020-01-10</td>
+<td>Used Widget</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+
+<p>Using this information we can compute for each customer:</p>
+
+<ul>
+<li>The number of repeat transactions per customer (frequency)</li>
+<li>The time of the last recorded transaction (recency)</li>
+<li>The date of the first transaction</li>
+<li>The duration of time between the first transaction and the end of the calibration period</li>
+</ul>
+
+<p>This information is sufficient to fit most BTYD models to estimate orders. Some models can also incorporate:</p>
+
+<ul>
+<li>Total sales in USD</li>
+<li>The sum over logarithmic intertransaction times (to incorporate purchase regularity into the model)</li>
+<li>Any other customer level covariate (e.g. is the customer a student?)</li>
+</ul>
+
+<h3 id="markov-chain-monte-carlo-methods">Markov Chain Monte Carlo Methods</h3>
+
+<p>In this case, our primary concern is not to estimate the customer lifetime value, or to figure our which one of our customers is &ldquo;dead&rdquo;, but rather to figure out which customer would have purchased from us had the lockdown not happened.</p>
+
+<p>This is where Markov Chain Monte Carlo methods come in. According to <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Wikipedia</a>:</p>
+
+<blockquote>
+<p>In statistics, Markov chain Monte Carlo (MCMC) methods comprise a class of algorithms for sampling from a probability distribution.</p>
+</blockquote>
+
+<p>MCMC methods make it (relatively) simple to estimate probabilities using that would be otherwise hard (or impossible) to compute.</p>
+
+<p>In our case the probability distribution we are interested in is not P(Alive), nor the distribubtion of orders a customer will make over a given timeframe (the length of the lockdown), but rather the probability that a customer will make at least one purchase over the length of the lockdown.</p>
+
+<h3 id="example-implementing-the-model">Example: implementing the model</h3>
+
+<p>To implement the model we use the <a href="https://cran.r-project.org/web/packages/BTYDplus/vignettes/BTYDplus-HowTo.pdf">BTYD plus</a> package in R which contains multiple BTYD models. In our case we will use the Abe (2009) model, which allows for predictors to be included.</p>
+
+<p>For this example we&rsquo;ll use a data set which consists of purchases made by customers of CDNOW in the late 1990s. CDNOW was a billion dollar tech company during the dotcom bubble, which was eventually absorbed by Amazon.</p>
+
+<p>After importing the data and some pre-processing (detailed in the link above), we make the assumption that the pandemic induced lockdowns lasts for two months (from April 1998 to June 1998).</p>
+
+<pre><code class="language-r">cdnowCbs &lt;- elog2cbs(cdnowElog,
+                     T.cal = &quot;1998-04-30&quot;, T.tot = &quot;1998-06-30&quot;)
+
+</code></pre>
+
+<p>Afterwards, we end up with a dataframe that includes the following columns:</p>
+
+<table>
+<thead>
+<tr>
+<th align="right">cust</th>
+<th align="right">x</th>
+<th align="right">t.x</th>
+<th align="right">sales</th>
+<th align="left">first</th>
+<th align="right">T.cal</th>
+<th align="right">T.star</th>
+<th align="right">x.star</th>
+<th align="right">sales.star</th>
+<th align="right">first.sales</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">4</td>
+<td align="right">3</td>
+<td align="right">49.285714</td>
+<td align="right">100.50</td>
+<td align="left">1997-01-01</td>
+<td align="right">69.14286</td>
+<td align="right">8.714286</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.02933</td>
+</tr>
+
+<tr>
+<td align="right">18</td>
+<td align="right">0</td>
+<td align="right">0.000000</td>
+<td align="right">14.96</td>
+<td align="left">1997-01-04</td>
+<td align="right">68.71429</td>
+<td align="right">8.714286</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.01496</td>
+</tr>
+
+<tr>
+<td align="right">21</td>
+<td align="right">1</td>
+<td align="right">1.714286</td>
+<td align="right">75.11</td>
+<td align="left">1997-01-01</td>
+<td align="right">69.14286</td>
+<td align="right">8.714286</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0.06334</td>
+</tr>
+</tbody>
+</table>
+
+<p>This includes the customer id (cust), the number of repeat transactions (x), the total sales of the customer (sales), the date of the first transaction (first), the duration of time between the first transaction and the end of the calibration period (T.cal).</p>
+
+<p>In our case, we have the data for the period between 1998-04-30 and 1998-06-30, so we also know the actual observed orders in that period (x.star) and value of these sales (sales.star).</p>
+
+<p>In addition, we also included the (scaled) value of the first purchase as a covariate. Now, it is time to run the model.</p>
+
+<pre><code class="language-r">
+# draws model parameters using the MCMC methods
+draws.m2 &lt;- abe.mcmc.DrawParameters(cdnowCbs, covariates = c(&quot;first.sales&quot;),
+                                    mcmc = 7500, burnin = 2500) 
+
+# using the drawn parameters estimates how many orders the each customer will make
+draws_xstar &lt;- mcmc.DrawFutureTransactions(cdnowCbs,draws.m2)
+
+# calculates P(Active) for each customer using the distribution of orders
+cdnowCbs$pActive &lt;- mcmc.PActive(draws_xstar)
+</code></pre>
+
+<p>First, we have to check that the MCMC model has converged. Basically, we want to make sure that the parameters estimated by the MCMC model aren&rsquo;t complete nonsense.</p>
+
+<p>There are <a href="http://sbfnk.github.io/mfiidd/mcmc_diagnostics.html">multiple ways of doing this</a>, which we will not go into, but on a superficial level it looks that the model has convergence is okayish. Not great, but not completely useless either.</p>
+
+<p><img src="/images/traceplots.png" alt="traceplots.png" /></p>
+
+<p>Lets see the results:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Group</th>
+<th align="right">Observed P(Active)</th>
+<th align="right">Predicted P(Active)</th>
+<th align="right">Customers</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">A: Over 75%</td>
+<td align="right">0.6562500</td>
+<td align="right">0.8531250</td>
+<td align="right">32</td>
+</tr>
+
+<tr>
+<td align="left">B: Between 50% and 75%</td>
+<td align="right">0.5890411</td>
+<td align="right">0.6066210</td>
+<td align="right">73</td>
+</tr>
+
+<tr>
+<td align="left">C: Between 25% and 50%</td>
+<td align="right">0.2920000</td>
+<td align="right">0.3432267</td>
+<td align="right">250</td>
+</tr>
+
+<tr>
+<td align="left">D: Less than 25%</td>
+<td align="right">0.0469530</td>
+<td align="right">0.0510539</td>
+<td align="right">2002</td>
+</tr>
+</tbody>
+</table>
+
+<p>It seems that the model is overestimating the probability of being active at the tail end of customers. We could try to improve the MCMC mixing, or add new predictors.</p>
+
+<p>Nonetheless, these estimates may be sufficient for our purposes.</p>
+
+<h3 id="summary-next-steps">Summary &amp; Next steps</h3>
+
+<p>What you do with this prediction depends to a great extent on your business model, how much each customer is worth, etc. One approach would be to segment your outreach based on the likelihood that they would have purchased.</p>
+
+<p>For example:</p>
+
+<ul>
+<li>Group A: send them a card/call them.</li>
+<li>Group B: email with new offers.</li>
+<li>Group C: email with a discount code. They need a little bit more of a push to order.</li>
+<li>Group D: email with a larger discount code. These clients were likely lost before the pandemic.</li>
+</ul>
+
+  </div>
+  
+</div>
+
+
+
+
+<script src="http://boazsobrado.com/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+
