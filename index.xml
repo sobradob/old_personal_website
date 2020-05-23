@@ -6,10 +6,22 @@
     <description>Recent content on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Apr 2020 01:32:32 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2020 01:32:32 +0100</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A day using money in Cuba</title>
+      <link>http://boazsobrado.com/blog/2020/05/22/a-day-using-money-in-cuba/</link>
+      <pubDate>Fri, 22 May 2020 01:32:32 +0100</pubDate>
+      
+      <guid>http://boazsobrado.com/blog/2020/05/22/a-day-using-money-in-cuba/</guid>
+      <description>Ira wakes up craving some eggs for breakfast. She walks under the strong Cuban sun and visits the food market . She’s lucky: they have eggs today.
+“How much for the box?” she asks, pointing at the box of 30 eggs.
+“Four pesos”
+She looks in her purse and finds a 100 peso note. She hands the note to the seller, who nods and hands her the eggs. She leaves without getting any change, nor did she expect to.</description>
+    </item>
     
     <item>
       <title>Restarting your sales after a coronavirus lockdown</title>
@@ -317,24 +329,6 @@ library(readr) library(ggmap) library(&amp;quot;shiny&amp;quot;) days&amp;lt;-re
       <guid>http://boazsobrado.com/blog/2012/11/20/dont-fear-foreign-education/</guid>
       <description>Startling new data show that emigration out of Hungary is at a 20-year record high and that many more Hungarians have seriously considered leaving Hungary to live, work, or study in another member state of the EU. But instead of speaking ominously about the potentially catastrophic consequences of such emigration trends for Hungary, it is useful to think of this increased mobility as a potentially positive phenomenon.
 Geographic mobility is often an indicator of social mobility.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://boazsobrado.com/casestudy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://boazsobrado.com/casestudy/</guid>
-      <description>Case Study: Treatwell       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://boazsobrado.com/treatwellpres/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://boazsobrado.com/treatwellpres/</guid>
-      <description>Treatwell Case Study var SLIDE_CONFIG = { // Slide settings settings: { title: &#39;Treatwell Case Study&#39;, useBuilds: true, usePrettify: true, enableSlideAreas: true, enableTouch: true, }, // Author information presenters: [ { name: &#39;Boaz Sobrado&#39; , company: &#39;&#39;, gplus: &#39;&#39;, twitter: &#39;&#39;, www: &#39;&#39;, github: &#39;&#39; }, ] };         b, strong { font-weight: bold; } em { font-style: italic; } summary { display: list-item; } slides  slide { -webkit-transition: all 0.</description>
     </item>
     
   </channel>
