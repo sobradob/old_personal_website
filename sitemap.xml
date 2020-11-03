@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://boazsobrado.com/blog/2020/10/30/defi-still-needs-a-silk-road-moment/</loc>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/blog/2020/10/18/on-proof-of-work-and-competitive-industries-ponzis-bubbles-buying-high-and-selling-low/</loc>
     <lastmod>2020-10-18T17:58:21+08:00</lastmod>
   </url>
@@ -200,7 +205,7 @@
   
   <url>
     <loc>http://boazsobrado.com/</loc>
-    <lastmod>2020-10-18T17:58:21+08:00</lastmod>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,6 +252,12 @@
   </url>
   
   <url>
+    <loc>http://boazsobrado.com/categories/crypto/</loc>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/tags/cuba/</loc>
     <lastmod>2016-06-12T11:32:32-06:00</lastmod>
     <priority>0</priority>
@@ -271,6 +282,12 @@
   </url>
   
   <url>
+    <loc>http://boazsobrado.com/categories/decentralised/</loc>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/categories/excel/</loc>
     <lastmod>2016-11-13T15:52:58+02:00</lastmod>
     <priority>0</priority>
@@ -285,6 +302,12 @@
   <url>
     <loc>http://boazsobrado.com/categories/facebook/</loc>
     <lastmod>2017-12-01T15:52:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/categories/finance/</loc>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -380,7 +403,7 @@
   
   <url>
     <loc>http://boazsobrado.com/post/</loc>
-    <lastmod>2020-10-18T17:58:21+08:00</lastmod>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -423,6 +446,12 @@
   <url>
     <loc>http://boazsobrado.com/categories/shiny/</loc>
     <lastmod>2018-02-08T15:52:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/categories/silk-road/</loc>
+    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
