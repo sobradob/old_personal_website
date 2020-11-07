@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://boazsobrado.com/blog/2020/11/07/my-thoughts-on-cambridge-analytica/</loc>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/blog/2020/10/30/defi-still-needs-a-silk-road-moment/</loc>
     <lastmod>2020-10-30T17:58:21+08:00</lastmod>
   </url>
@@ -174,6 +179,12 @@
   </url>
   
   <url>
+    <loc>http://boazsobrado.com/categories/advertising/</loc>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/categories/airbnb/</loc>
     <lastmod>2019-02-19T09:58:21+08:00</lastmod>
     <priority>0</priority>
@@ -205,7 +216,7 @@
   
   <url>
     <loc>http://boazsobrado.com/</loc>
-    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,6 +229,12 @@
   <url>
     <loc>http://boazsobrado.com/tags/books/</loc>
     <lastmod>2016-04-18T09:48:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/categories/cambridge-analytica/</loc>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -295,7 +312,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/facebook/</loc>
-    <lastmod>2017-12-01T15:52:58+02:00</lastmod>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -403,7 +420,7 @@
   
   <url>
     <loc>http://boazsobrado.com/post/</loc>
-    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -470,6 +487,12 @@
   <url>
     <loc>http://boazsobrado.com/tags/travel/</loc>
     <lastmod>2017-01-11T11:32:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://boazsobrado.com/categories/trump/</loc>
+    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   

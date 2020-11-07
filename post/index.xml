@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2020 17:58:21 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2020 17:58:21 +0800</lastBuildDate>
     
 	<atom:link href="http://boazsobrado.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My thoughts on Cambridge Analytica</title>
+      <link>http://boazsobrado.com/blog/2020/11/07/my-thoughts-on-cambridge-analytica/</link>
+      <pubDate>Sat, 07 Nov 2020 17:58:21 +0800</pubDate>
+      
+      <guid>http://boazsobrado.com/blog/2020/11/07/my-thoughts-on-cambridge-analytica/</guid>
+      <description>I am writing this to share my conclusions regarding the Cambridge Analytica affair. I have a somewhat unique perspective on the topic for three reasons:
+ My day job consists of measuring the effectiveness of digital advertising. I have first hand experience with the technology and methods that Cambridge Analytica claims to have used. I played a small role in unearthing the Cambridge Analytica scandal.  My concern is that a lot of people seem to focus on a scary technology called psychographic advertising (also known as psychographic or personality marketing) that purportedly allowed Cambridge Analytica to manipulate people by serving them ads tailored to their individual personality.</description>
+    </item>
     
     <item>
       <title>DeFi Still Needs a Silk Road Moment</title>
