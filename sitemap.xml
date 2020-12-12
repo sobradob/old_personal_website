@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://boazsobrado.com/blog/2020/12/11/why-cuba-is-primed-for-bitcoin-adoption/</loc>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/blog/2020/11/07/my-thoughts-on-cambridge-analytica/</loc>
     <lastmod>2020-11-07T17:58:21+08:00</lastmod>
   </url>
@@ -215,8 +220,14 @@
   </url>
   
   <url>
+    <loc>http://boazsobrado.com/categories/bitcoin/</loc>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://boazsobrado.com/</loc>
-    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -270,13 +281,13 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/crypto/</loc>
-    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://boazsobrado.com/categories/cuba/</loc>
-    <lastmod>2020-05-22T01:32:32+01:00</lastmod>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -324,7 +335,7 @@
   
   <url>
     <loc>http://boazsobrado.com/categories/finance/</loc>
-    <lastmod>2020-10-30T17:58:21+08:00</lastmod>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -420,7 +431,7 @@
   
   <url>
     <loc>http://boazsobrado.com/post/</loc>
-    <lastmod>2020-11-07T17:58:21+08:00</lastmod>
+    <lastmod>2020-12-11T17:58:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
