@@ -68,7 +68,7 @@
     <item>
       <title>Bitcoin</title>
       <link>http://boazsobrado.com/categories/bitcoin/</link>
-      <pubDate>Fri, 11 Dec 2020 17:58:21 +0800</pubDate>
+      <pubDate>Fri, 15 Jan 2021 17:58:21 +0800</pubDate>
       
       <guid>http://boazsobrado.com/categories/bitcoin/</guid>
       <description></description>
@@ -111,9 +111,18 @@
     </item>
     
     <item>
+      <title>Crime</title>
+      <link>http://boazsobrado.com/categories/crime/</link>
+      <pubDate>Fri, 15 Jan 2021 17:58:21 +0800</pubDate>
+      
+      <guid>http://boazsobrado.com/categories/crime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Crypto</title>
       <link>http://boazsobrado.com/categories/crypto/</link>
-      <pubDate>Fri, 11 Dec 2020 17:58:21 +0800</pubDate>
+      <pubDate>Fri, 15 Jan 2021 17:58:21 +0800</pubDate>
       
       <guid>http://boazsobrado.com/categories/crypto/</guid>
       <description></description>
@@ -260,6 +269,15 @@
       <pubDate>Wed, 11 Jan 2017 11:32:32 -0600</pubDate>
       
       <guid>http://boazsobrado.com/categories/mistakes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Payments</title>
+      <link>http://boazsobrado.com/categories/payments/</link>
+      <pubDate>Fri, 15 Jan 2021 17:58:21 +0800</pubDate>
+      
+      <guid>http://boazsobrado.com/categories/payments/</guid>
       <description></description>
     </item>
     
