@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GPS on Boaz Sobrado&#39;s Website</title>
-    <link>/categories/gps/</link>
+    <link>https://sobradob.github.io/categories/gps/</link>
     <description>Recent content in GPS on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://www.boazsobrado.com/&#34;&gt;Boaz Sobrado&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 15:52:58 +0200</lastBuildDate><atom:link href="/categories/gps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Feb 2018 15:52:58 +0200</lastBuildDate><atom:link href="https://sobradob.github.io/categories/gps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leaflet timeline in R</title>
-      <link>/blog/2018/02/08/leaflet-timeline-in-r/</link>
+      <link>https://sobradob.github.io/blog/2018/02/08/leaflet-timeline-in-r/</link>
       <pubDate>Thu, 08 Feb 2018 15:52:58 +0200</pubDate>
       
-      <guid>/blog/2018/02/08/leaflet-timeline-in-r/</guid>
+      <guid>https://sobradob.github.io/blog/2018/02/08/leaflet-timeline-in-r/</guid>
       <description>Leaflet is a powerful tool for visualasing spatial data in R. However, after much googling I could not find an easy way to create a timeline to visualise changes in time. Therefore, I decided to create a simple shiny app that does it.
 Raw Android GPS Movements Code The code below takes raw location measurements from my Android phone visualises them over time. The size of the circle is the confidence interval of the measurement. Before you go and try to find me at those spots, I no longer live there!</description>
     </item>

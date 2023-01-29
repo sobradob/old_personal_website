@@ -2,46 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Media on Boaz Sobrado&#39;s Website</title>
-    <link>/series/media/</link>
+    <link>https://sobradob.github.io/series/media/</link>
     <description>Recent content in Media on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://www.boazsobrado.com/&#34;&gt;Boaz Sobrado&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 13:11:22 +0800</lastBuildDate><atom:link href="/series/media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jan 2023 13:11:22 +0800</lastBuildDate><atom:link href="https://sobradob.github.io/series/media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mixpanel Live - Growth and Analytics</title>
+      <link>https://sobradob.github.io/blog/2023/01/27/mixpanel-live-growth-and-analytics/</link>
+      <pubDate>Fri, 27 Jan 2023 13:11:22 +0800</pubDate>
+      
+      <guid>https://sobradob.github.io/blog/2023/01/27/mixpanel-live-growth-and-analytics/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>Crypto Critics Corner - An Argument for Tether in Cuba</title>
-      <link>/blog/2022/09/01/crypto-critics-corner-an-argument-for-tether-in-cuba/</link>
+      <link>https://sobradob.github.io/blog/2022/09/01/crypto-critics-corner-an-argument-for-tether-in-cuba/</link>
       <pubDate>Thu, 01 Sep 2022 13:11:22 +0800</pubDate>
       
-      <guid>/blog/2022/09/01/crypto-critics-corner-an-argument-for-tether-in-cuba/</guid>
+      <guid>https://sobradob.github.io/blog/2022/09/01/crypto-critics-corner-an-argument-for-tether-in-cuba/</guid>
       <description>I discuss the realities of the crypto markets with two of the most informed crypto skeptics.</description>
     </item>
     
     <item>
       <title>Arise TV - Cross Border Payments</title>
-      <link>/blog/2022/07/20/arise-tv-cross-border-payments/</link>
+      <link>https://sobradob.github.io/blog/2022/07/20/arise-tv-cross-border-payments/</link>
       <pubDate>Wed, 20 Jul 2022 13:11:22 +0800</pubDate>
       
-      <guid>/blog/2022/07/20/arise-tv-cross-border-payments/</guid>
+      <guid>https://sobradob.github.io/blog/2022/07/20/arise-tv-cross-border-payments/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Bitcoin 2021 - What To Do When Your Country Bans Bitcoin</title>
-      <link>/blog/2021/06/04/bitcoin-2021-what-to-do-when-your-country-bans-bitcoin/</link>
+      <link>https://sobradob.github.io/blog/2021/06/04/bitcoin-2021-what-to-do-when-your-country-bans-bitcoin/</link>
       <pubDate>Fri, 04 Jun 2021 13:11:22 +0800</pubDate>
       
-      <guid>/blog/2021/06/04/bitcoin-2021-what-to-do-when-your-country-bans-bitcoin/</guid>
+      <guid>https://sobradob.github.io/blog/2021/06/04/bitcoin-2021-what-to-do-when-your-country-bans-bitcoin/</guid>
       <description>On Over-Compliance Full Version </description>
     </item>
     
     <item>
       <title>On The Brink - On Bitcoin adoption trends in Cuba</title>
-      <link>/blog/2021/06/04/on-the-brink-on-bitcoin-adoption-trends-in-cuba/</link>
+      <link>https://sobradob.github.io/blog/2021/06/04/on-the-brink-on-bitcoin-adoption-trends-in-cuba/</link>
       <pubDate>Fri, 04 Jun 2021 13:11:22 +0800</pubDate>
       
-      <guid>/blog/2021/06/04/on-the-brink-on-bitcoin-adoption-trends-in-cuba/</guid>
+      <guid>https://sobradob.github.io/blog/2021/06/04/on-the-brink-on-bitcoin-adoption-trends-in-cuba/</guid>
       <description> </description>
     </item>
     

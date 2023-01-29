@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boaz Sobrado on Boaz Sobrado&#39;s Website</title>
-    <link>/authors/example-author/</link>
+    <link>https://sobradob.github.io/authors/example-author/</link>
     <description>Recent content in Boaz Sobrado on Boaz Sobrado&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://www.boazsobrado.com/&#34;&gt;Boaz Sobrado&lt;/a&gt;
-</copyright><atom:link href="/authors/example-author/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="https://sobradob.github.io/authors/example-author/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
