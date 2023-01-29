@@ -48,7 +48,7 @@ If you live in a small or poor country, you might find it impossible to jump thr
 
 AML departments in financial service companies are more about complying with AML legislation than actually stopping money laundering. A 2014 study found that identity verification "principles, guidance and practices resulted in processes that are largely bureaucratic and do not ensure that identity fraud is effectively prevented."
 
-In other words, fraud has been growing at [astronomical rates worldwide](https://news.sky.com/story/alarming-growth-in-fraud-in-the-uk-as-scam-adverts-dupe-victims-out-of-large-sums-of-money-mps-warn-12530441) and KYC laws have greatly contributed to this. People are now accustomed to share their personal identity documents with a wide range of actors ranging from banks to telecom providers to [pornography websites](https://www.independent.co.uk/tech/porn-blocks-reddit-google-age-verification-uk-online-harms-b2010311.html). Is it surprising when their information gets compromised?
+In other words, fraud has been growing at [astronomical rates worldwide](https://news.sky.com/story/alarming-growth-in-fraud-in-the-uk-as-scam-adverts-dupe-victims-out-of-large-sums-of-money-mps-warn-12530441) and KYC laws have greatly contributed to this. People are now accustomed to share their personal identity documents with a wide range of actors ranging from banks to telecom providers to [pornography websites](https://www.independent.co.uk/tech/porn-blocks-reddit-google-age-verification-uk-online-harms-b2010311.html). Is it surprising when their information gets compromised ?
 
 Crypto is well suited
 ---------------------
